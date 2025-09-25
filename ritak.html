@@ -123,11 +123,11 @@
             
         }
         else if(computerMove=='paper'&&userMove=='scissor'){score.win++;
-            alert('COMPUTER SAYS PAPER\n YOU WON !! losses : ${score.loss} , ties : ${score.tie} ,wins ${score.win}');
+            alert(`COMPUTER SAYS PAPER\n YOU WON !! losses : ${score.loss} , ties : ${score.tie} ,wins ${score.win}`);
             
         }
         else if(computerMove=='scissor'&&userMove=='rock'){  score.win++;
-            alert('COMPUTER SAYS SCISSOR  \nYOU WON !! losses : ${score.loss} , ties : ${score.tie} ,wins ${score.win}')
+            alert(`COMPUTER SAYS SCISSOR  \n YOU WON !! losses : ${score.loss} , ties : ${score.tie} ,wins ${score.win}`)
           
         }
         else if( computerMove=='paper'&&userMove=='rock'){score.loss++;
@@ -135,15 +135,15 @@
             
         }
         else if(computerMove=='scissor'&&userMove=='paper'){score.loss++;
-            alert('COMPUTER SAYS SCISSOR\n YOU LOST !!  losses : ${score.loss} , ties : ${score.tie} ,wins ${score.win}');
+            alert(`COMPUTER SAYS SCISSOR\n YOU LOST !!  losses : ${score.loss} , ties : ${score.tie} ,wins ${score.win}`);
             
         }
         else if(computerMove=='rock'&&userMove=='scissor'){ score.loss++;
-            alert('COMPUTER SAYS ROCK  \nYOU LOST !! losses : ${score.loss} , ties : ${score.tie} ,wins ${score.win}');
+            alert(`COMPUTER SAYS ROCK  \n YOU LOST !! losses : ${score.loss} , ties : ${score.tie} ,wins ${score.win}`);
            
         }
         else if(computerMove==userMove){score.tie++;
-            alert('COMPUTER MOVE IS ,${userMove} \nits a draw !!  losses : ${score.loss} , ties : ${score.tie} ,wins ${score.win}');
+            alert(`COMPUTER MOVE IS ,${userMove} \n its a draw !!  losses : ${score.loss} , ties : ${score.tie} ,wins ${score.win}`);
             
         }
         }
